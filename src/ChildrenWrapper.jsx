@@ -1,5 +1,4 @@
 
-import { Greetings } from './Greetings';
 import { UserCard } from '../UserCard';
 
 export const ChildrenWrapper = ({ children }) => {
