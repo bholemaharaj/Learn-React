@@ -1,17 +1,30 @@
-import './App.css';
-import { ChildrenWrapper } from './ChildrenWrapper';
-import { Greetings } from './Greetings';
+import "./styles.css";
+// import { ChildrenWrapper } from './ChildrenWrapper';
+// import { Greetings } from './Greetings';
+// import { MyList } from './MyListItems';
+// import { People } from './PersonList';
+import { Contact } from "./Contact";
+import { NewsLetter } from "./NewsLetter";
+import { Menu } from "./Menu";
+import { CustomButton } from "./CustomButton";
 
 function App() {
   return (
-    <ChildrenWrapper>
+    <>
+      {/* <MyList items={People} />
+      <ChildrenWrapper>
       <h4>This is some additional content for the user card.</h4>
-      <picture>Users Hobbies: Plays guitar, piano etc.</picture>
+      <p>Users Hobbies: Plays guitar, piano etc.</p>
       <h2>
         <Greetings name="Dudismo" greeting="Whatsaaaap" />
       </h2>
-    </ChildrenWrapper>
+    </ChildrenWrapper> */}
+      <CustomButton />
+      <Contact />
+      <NewsLetter />
+      <Menu />
+    </>
   );
 }
 
-export default App
+export default App;
