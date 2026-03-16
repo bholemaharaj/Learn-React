@@ -3,10 +3,11 @@ import "./styles.css";
 // import { Greetings } from './Greetings';
 // import { MyList } from './MyListItems';
 // import { People } from './PersonList';
-import { Contact } from "./Contact";
-import { NewsLetter } from "./NewsLetter";
-import { Menu } from "./Menu";
-import { CustomButton } from "./CustomButton";
+// import { Contact } from "./Contact";
+// import { NewsLetter } from "./NewsLetter";
+// import { Menu } from "./Menu";
+// import { CustomButton } from "./CustomButton";
+import { CounterPrevState } from "./CounterPrevState";
 
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
         <Greetings name="Dudismo" greeting="Whatsaaaap" />
       </h2>
     </ChildrenWrapper> */}
-      <CustomButton />
+      {/* <CustomButton />
       <Contact />
       <NewsLetter />
-      <Menu />
+      <Menu /> */}
+      <CounterPrevState />
     </>
   );
 }

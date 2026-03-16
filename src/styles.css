@@ -15,6 +15,7 @@
   --color-surface: #f8f9fa;
   --color-surface-hover: #f0f0f0;
   --color-surface-alt: #f9f9f9;
+  --color-background: #f2f2f7;
   --color-border: #ddd;
 
   /* Spacing Scale */
@@ -66,6 +67,13 @@
 .u-justify-center { justify-content: center; }
 .u-gap-sm { gap: var(--spacing-sm); }
 .u-gap-md { gap: var(--spacing-md); }
+
+/* Layout helpers */
+.button-row {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
 .u-width-full { width: 100%; }
 .u-margin-0 { margin: 0; }
 .u-padding-0 { padding: 0; }
@@ -84,6 +92,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--color-background);
 }
 
 /* ===========================================
