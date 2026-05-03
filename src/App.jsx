@@ -1,3 +1,4 @@
+import { ActionButton } from "./ActionButton";
 import "./styles.css";
 // import { ChildrenWrapper } from './ChildrenWrapper';
 // import { Greetings } from './Greetings';
@@ -25,6 +26,7 @@ function App() {
       <NewsLetter />
       <Menu /> */}
       <CounterPrevState />
+      <ActionButton text="Click me!" onClick={() => alert("Button clicked!")} />
     </>
   );
 }
